@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balloon Game</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Connect CSS -->
+</head>
+<body>
+  <div class="container">
+    <canvas id="game"></canvas>
+    <div id="introduction">
+      <p>Hold mouse to rise. Fly low to save fuel.</p>
+      <p>Reach 100m before fuel runs out.</p> <!-- Condensed instructions -->
+    </div>
+    <button id="completion-message" style="display: none;">YOU WIN</button>
+    <button id="restart">RESTART</button>
+  </div>
+  <script src="paraloop.js"></script> <!-- Connect JavaScript -->
+</body>
+</html>
