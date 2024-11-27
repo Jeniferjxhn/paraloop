@@ -59,12 +59,6 @@ body {
     align-items: center;
     text-align: center;
     display: flex; /* Ensure the text is centered within the button */
-  }
-
-#continue-message {
-    display: block;
-    font-size: 18px;
-    font-weight: normal;
-    margin-top: 10px;
+  
 }
 

@@ -454,7 +454,6 @@ function hitDetection() {
     if (getDistance(cartTopRight, treeTopRight) < r5) return true;
   }
 }
-
 function getDistance(point1, point2) {
   return Math.sqrt((point2.x - point1.x) ** 2 + (point2.y - point1.y) ** 2);
 }
